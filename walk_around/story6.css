@@ -1,0 +1,33 @@
+.content {
+  width: 70%;
+  justify-content: center;
+}
+.text {
+  line-height: 1.5;
+}
+.text h1 {
+  font-size: 28px;
+}
+.text h1 > span {
+  color: #cfa12b;
+}
+.text h2 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.text ul {
+  margin-top: 10px;
+  line-height: 1.5;
+  list-style: disc;
+  padding-left: 25px;
+}
+.text li {
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 400;
+}
+.text a {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: end;
+}

@@ -1,0 +1,22 @@
+.balls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 580px;
+  height: 200px;
+  gap: 360px;
+}
+.red {
+  position: absolute;
+  z-index: 1;
+  left: 40%;
+  top: 40%;
+  width: 100px;
+}
+.blue {
+  position: absolute;
+  z-index: 1;
+  left: 75%;
+  top: 30%;
+  width: 100px;
+}

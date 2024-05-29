@@ -1,0 +1,58 @@
+.complete-world {
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: bold;
+}
+.combine-balls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 150px;
+  margin-top: 2%;
+}
+.red {
+  width: 100px;
+  position: absolute;
+  right: 49%;
+  z-index: 1;
+}
+.blue {
+  width: 100px;
+  position: absolute;
+  left: 47%;
+  z-index: 2;
+}
+.click {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+.content {
+  margin-top: 0;
+}
+.touch-blue,
+.touch-red {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+
+.touch-blue img,
+.touch-red img {
+  position: absolute;
+  width: 400px;
+}
+
+.touch-blue img {
+  left: 57%;
+  top: 15%;
+}
+
+.touch-red img {
+  left: 13%;
+  top: 25%;
+}

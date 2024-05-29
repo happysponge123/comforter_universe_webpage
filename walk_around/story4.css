@@ -1,0 +1,60 @@
+.next-page {
+  width: 13rem;
+}
+.content {
+  width: 75%;
+}
+.text {
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text p {
+  padding-bottom: 20px;
+}
+.weak-spot {
+  color: rgb(249, 108, 108);
+}
+.weakness {
+  position: relative;
+  line-height: 1.7;
+}
+.weakness a {
+  text-decoration: none;
+}
+.weakness-content {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 3;
+}
+.weakness-content img {
+  position: absolute;
+  z-index: 3;
+  width: 450px;
+  left: 55%;
+  top: 35%;
+}
+.weak1-content {
+  display: none;
+}
+.weak2-content {
+  display: none;
+}
+.weak3-content {
+  display: none;
+}
+.weak4-content {
+  display: none;
+}
+.weak5-content {
+  display: none;
+}
+.weak6-content {
+  display: none;
+}

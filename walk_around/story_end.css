@@ -1,0 +1,16 @@
+.content {
+  flex-direction: column;
+  justify-content: center;
+}
+.cutton {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.cutton p {
+  display: none;
+}
+.text {
+  font-size: 40px;
+  max-width: fit-content;
+  min-width: none;
+}
